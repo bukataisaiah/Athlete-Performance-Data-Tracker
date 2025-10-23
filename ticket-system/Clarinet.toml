@@ -1,12 +1,12 @@
 [project]
-name = 'StatChain'
+name = 'ticket-system'
 description = ''
 authors = []
-telemetry = true
+telemetry = false
 cache_dir = '.\.cache'
 requirements = []
-[contracts.Ticket]
-path = 'contracts/Ticket.clar'
+[contracts.ticket]
+path = 'contracts/ticket.clar'
 clarity_version = 3
 epoch = 'latest'
 [repl.analysis]
